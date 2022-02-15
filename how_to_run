@@ -1,0 +1,12 @@
+
+
+Steps to run using the zip folder
+    - extract the contents of the zip 
+    - open a new terminal 
+    - cd into the cnn_toy_project folder extracted by the zip file
+    - on windows run 'project_env\Scripts\activate' in the terminal on linux run 'source ./project_env/Scripts/activate' to activate the virtual environment
+    - to run the training loop run 'python train.py'
+    - to run the inference on the pre-trained model run 'python inference.py'
+
+Steps to run using github 
+    - clone the repository from 
