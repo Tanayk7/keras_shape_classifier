@@ -8,7 +8,7 @@ Steps to run using the zip folder
 
 Steps to run using github (python 3.7 must be installed on system to run using this method)
     - clone the repository from https://github.com/Tanayk7/keras_shape_classifier using the zip download or by running 'git clone https://github.com/Tanayk7/keras_shape_classifier.git'
-    - create a new virtual environment in the cnn_toy_project directory
+    - create a new virtual environment inside the cnn_toy_project directory by running 'python -m venv <your_env_name>'
     - on windows run '<your_env_name>\Scripts\activate' in the terminal on linux run 'source ./<your_env_name>/Scripts/activate' to activate the virtual environment
     - install dependencies using 'pip install -r requirements.txt'
     - to run the training loop run 'python train.py'
