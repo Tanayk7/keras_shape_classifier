@@ -113,5 +113,5 @@ plt.show()
 
 predictions = np.argmax(model.predict(x_val),axis=1)
 
-print(classification_report(y_val, predictions, target_names = ['Rugby (Class 0)','Soccer (Class 1)']))
+print(classification_report(y_val, predictions, target_names = ['circle (Class 0)','rectangle (Class 1)']))
 
